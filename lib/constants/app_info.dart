@@ -19,17 +19,20 @@ class AppInfo {
   static String versionLabel({bool debug = kDebugMode}) =>
       debug ? 'Internal' : version;
 
-  static const String appName = 'Mornye';
+  static const String appName = 'MornyeFMT';
   static const String license = 'LGPL-3.0-only';
   static const String copyright = '© 2026 Zarz Eleutherius';
 
   static const String mobileAuthor = 'zarzet';
 
-  static const String githubRepo = 'mornyeapp/Mornye';
+  static const String githubRepo = 'FedMedTim/MornyeFMT';
+
+  /// MornyeFMT is a fork; the original project lives here.
+  static const String upstreamRepo = 'mornyeapp/Mornye';
   static const String githubUrl = 'https://github.com/$githubRepo';
 
   /// Desktop packages are published here; the source stays in [githubRepo].
-  static const String desktopGithubRepo = 'mornyeapp/Mornye-Desktop';
+  static const String desktopGithubRepo = 'FedMedTim/MornyeFMT';
   // The server keeps the endpoint name from before the rename.
   static const String remoteConfigApiUrl =
       'https://api.zarz.moe/v1/spotiflac-mobile/config';

@@ -1,3 +1,20 @@
+> [!IMPORTANT]
+> **MornyeFMT** is a fork of [Mornye](https://github.com/mornyeapp/Mornye) by
+> zarzet, maintained by [FedMedTim](https://github.com/FedMedTim). All credit
+> for the app goes to the original authors; it stays under the same
+> LGPL-3.0-only license (see [LICENSE](LICENSE), [COPYING](COPYING) and
+> [NOTICE](NOTICE)).
+>
+> Changes in this fork:
+> - Windows x64 builds published in this repository's
+>   [Releases](https://github.com/FedMedTim/MornyeFMT/releases).
+> - The app is named MornyeFMT (window title, `mornyefmt.exe`, its own
+>   settings folder and single-instance lock), so it can sit next to the
+>   original.
+> - The in-app update check reads this repository's releases.
+>
+> Please report fork-specific problems here, not to the upstream project.
+
 <div align="center">
 
 <picture>

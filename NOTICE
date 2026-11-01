@@ -9,3 +9,8 @@ version 3 only. See LICENSE and COPYING for the complete terms.
 Third-party components retain their own copyrights and licenses. Their notices
 are included in third_party/, rust_backend/NOTICE, assets/licenses/, and the
 application's Licenses page.
+
+MornyeFMT
+Fork of Mornye (https://github.com/mornyeapp/Mornye), maintained by FedMedTim
+(https://github.com/FedMedTim/MornyeFMT). Modifications are licensed under the
+same LGPL-3.0-only terms.

@@ -12,7 +12,7 @@
 namespace {
 
 // Per user session, so two signed-in users each get their own instance.
-constexpr wchar_t kSingleInstanceMutex[] = L"Local\\com.zarz.mornye.instance";
+constexpr wchar_t kSingleInstanceMutex[] = L"Local\\com.fedmedtim.mornyefmt.instance";
 
 // Same ID as the installer's Start Menu shortcut (windows/installer), so the
 // taskbar groups the window with its pinned shortcut.
@@ -96,7 +96,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 800);
-  if (!window.Create(L"Mornye", origin, size)) {
+  if (!window.Create(L"MornyeFMT", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);
